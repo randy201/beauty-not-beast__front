@@ -1,0 +1,14 @@
+.form-container {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  height: 95vh;
+}
+.home-page {
+  display: flex;
+  align-items: center;
+  height: 100dvh;
+  justify-content: space-evenly;
+}

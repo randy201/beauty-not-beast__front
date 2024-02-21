@@ -1,0 +1,37 @@
+@import "..\\node_modules\\bootstrap\\dist\\css\\bootstrap.css";
+@font-face {
+  font-family: "MaPolice";
+  src: local("MaPolice"), url(./assets/Roman\ SD.ttf) format("truetype");
+}
+:root {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* font-family: "MaPolice" !important; */
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  color: black;
+}
+
+.titre {
+  font-size: 30px;
+  /*border-bottom: 2px solid #8F908D ;*/
+  width: fit-content;
+}
+
+.roboto-mono-texte {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 100px !important;
+  font-size: 30px !important;
+  font-style: normal;
+}
